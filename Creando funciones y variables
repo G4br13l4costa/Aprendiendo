@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+
+<script>
+
+function saltarlinea() {
+
+       document.write("<br>");
+       document.write("<br>");
+       document.write("<br>");
+
+  } 
+
+  function imprimir (frase){
+ 
+       document.write (frase)
+       saltarlinea();
+
+  }
+
+  var edadFaby = 29
+  var edadRoman = 35
+  var edadGaby = 29
+
+  imprimir("La diferencia de edad entre Roman y Gaby es " + (edadRoman-edadGaby) + "años");
+  imprimir ("La diferencia de edad entre Faby y Gaby es " + (edadFaby-edadGaby) + "años");
+
+
+</script>	
