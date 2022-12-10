@@ -1,0 +1,31 @@
+<meta charset="UTF-8">
+
+<h1>PROGRAMA- CALCULAR LOS PUNTOS DE UN EQUIPO DE FUTBOL</h1>
+
+<script>
+
+  function saltarlinea() {
+
+       document.write("<br>");
+       document.write("<br>");
+       document.write("<br>");
+
+  } 
+
+  function imprimir (frase){
+ 
+       document.write (frase)
+       saltarlinea();
+
+  }
+
+// parseInt sirve para el cambio de variables de texto a númericos y así permite que JS realice los calculos correspondientes a lo que queremos realizar.
+
+var victorias = parseInt(prompt ("Informe la cantidad de victorias"));
+ var empates = parseInt(prompt ("Informe la cantidad de empates"));  
+
+ var puntosTotal = (victorias * 3) + empates;
+
+ imprimir ("El total de puntos del equipo es :" + puntosTotal);
+ 
+</script>
